@@ -7,7 +7,7 @@ import { HeroSectionSlides } from "./ComponentData";
 const Hero = () => {
   return (
     <section className="flex flex-col  text-center justify-center  z-10 text-white w-screen items-center  h-full px-2 gap-3 md:max-w-[80%] max-w-[1500px] overflow-hidden fixed top-0">
-      <h1 className="heading xxl:text-6xl sm:text-4xl xs:text-3xl xxs:text-xl text font-bold opacity-90">
+      <h1 className="heading xxl:text-6xl sm:text-4xl xs:text-3xl xxs:text-2xl text font-bold opacity-90">
         HOURANI ENTERPRISES
       </h1>
       <h1 className=" xxs:w-full  xxl:text-3xl sm:text-xl xxs:text-md opacity-90 xlg:max-w-[60%]">
