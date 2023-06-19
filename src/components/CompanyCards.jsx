@@ -4,7 +4,7 @@ import Link from "next/link";
 const CompanyCards = ({}) => {
   return (
     <div className="xxs:w-screen  items-center flex flex-col gap-8 justify-center ">
-      <div className="grid lg:grid-cols-2 xxs:grid-cols-1 grid-cols-2 gap-8 px-4 items-center w-screen xxs:max-w-[100%] text-white opacity-80 h-full">
+      <div className="grid lg:grid-cols-2 xxs:grid-cols-1 grid-cols-2 gap-8 px-4 items-center w-screen xxs:max-w-[100%] text-white opacity-80 h-full xxl:max-w-[1700px]">
         {/* Image */}
         <Link
           href="https://jobsrus.com.au/"
