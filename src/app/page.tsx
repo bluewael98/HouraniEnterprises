@@ -18,7 +18,7 @@ export default function Home() {
        <section className='flex justify-center  bg-gray-800 min-h-screen z-10'>
         <CompanyCards  />
        </section>
-        <div className='z-10 px-4'>
+        <div className='z-10'>
           <Footer />
         </div>
     </main>

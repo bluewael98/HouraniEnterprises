@@ -1,34 +1,44 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./node_modules/flowbite-react/**/*.js",
   ],
   theme: {
     extend: {
       colors: {
-        primary: "#D5001C",
-        white: "#FFFFFF"
+        primary: "#303FA1",
+        secondary: "#6366B8",
+        lavender: "#E6E6FA",
+        alt: "#6A2875",
+        alt2: "#A8A9AE",
       },
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        Oswald: ["inter, sans-serif"],
+        Charter: ["Charter, serif"],
+        Bebas: ["Bebas Neue, sans-serif"],
       },
+
       screens: {
-        xxs: "270px",
-        xxshalf: "380px",
+        xxs: "370px",
         xs: "480px",
         ss: "620px",
         sm: "768px",
         md: "1020px",
         lg: "1200px",
         xlg: "1300px",
-        xxl: "1700px", 
+        xxl: "1700px",
+      },
+      boxShadow: {
+        "5xl": "0px 10px 30px rgba(0,0,0, 0.5)",
+      },
+      backgroundImage: {
+        blob: "url('/src/assets/blob.svg')",
+        banner: "url('/src/assets/Banner.png')",
       },
     },
   },
   plugins: [],
-}
+};
